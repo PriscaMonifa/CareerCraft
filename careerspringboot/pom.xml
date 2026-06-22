@@ -28,7 +28,11 @@
 	</scm>
 	<properties>
 		<java.version>21</java.version>
-	</properties>
+        <sonar.organization>priscamonifa</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.projectKey>PriscaMonifa_CareerCraft</sonar.projectKey>
+        <sonar.exclusions>src/main/resources/application.properties</sonar.exclusions>
+    </properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -105,6 +109,7 @@
 		<version>0.13.0</version>
 		<scope>runtime</scope>
 	</dependency>
+
 </dependencies>
 
 	<build>
